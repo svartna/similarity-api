@@ -57,6 +57,35 @@ POST /similarity
 }
 ```
 
+## Example output
+
+```json
+{
+  "ids": [
+    "song1",
+    "song2",
+    "song3"
+  ],
+  "similarity_matrix": [
+    [
+      0.9999999999999999,
+      0.9960377053144616,
+      0.1922256011501686
+    ],
+    [
+      0.9960377053144616,
+      0.9999999999999997,
+      0.24844726413430301
+    ],
+    [
+      0.1922256011501686,
+      0.24844726413430301,
+      0.9999999999999999
+    ]
+  ]
+}
+```
+
 ## Limitations
 
 - returns a full matrix instead of just a ranked list of top-N results (coming soon!)
