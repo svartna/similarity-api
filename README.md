@@ -48,7 +48,7 @@ interactive API documentation
 
 ```json
 POST /similarity
-}
+{
   "items": [
     {"id": "song1", "features": {"duration": 0.3, "pop": 1, "rock": 0}},
     {"id": "song2", "features": {"duration": 0.4, "pop": 1, "rock": 0}},
